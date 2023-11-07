@@ -1,54 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body style="background: linear-gradient(141deg, #1b1b1b 0%, #273f01 51%, #3b3b3b 75%);">
-    
-    
-    <div class="navbar">
-        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="Sobre.html"><i class="fa fa-fw fa-search"></i> Sobre</a>
-        <a href="Contato.html"><i class="fa fa-fw fa-envelope"></i> Contato</a>
-        <a href="Login.html"><i class="fa fa-fw fa-user"></i> Login</a>
-        <a href="Cadastre-se.html"><i class="fa-diamond">Cadastre-se</i></a>
-      </div>
-  <div class="container">
-        <h1>Faça seu login para contribuir com a nossa ONG</h1>
-        <input type="email" id="email" placeholder="E-mail">
-        <input type="password" id="password" placeholder="Senha">
-        <button id="loginButton">Entrar</button>
-    </body>
-
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Impatriados - Login</title>
+    <style>
+        /* Estilos de CSS para a página de login ... */
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Impatriados</h1>
+            <nav>
+                <a href="index.html">Página Inicial</a>
+                <a href="cadastro.html">Cadastro</a>
+                <a href="login.html">Login</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
 
-<nav class="navbar">
-    <div class="logo">
-        <a href="index.html">Logo</a>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="seu_script_de_login.php" method="post">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
     </div>
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="servicos.html">Serviços</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
-</nav>
-
-<!-- O conteúdo da sua página continua aqui -->
-
 </body>
 </html>
